@@ -338,7 +338,7 @@ h1, h2, h3, h4, h5, h6 {
 .mobile-nav-toggle {
   position: fixed;
   right: 15px;
-  top: 15px;
+  top: 20px;
   z-index: 9998;
   border: 0;
   background: none;
@@ -1790,6 +1790,11 @@ section {
   }
   .contact__btn{
     width:98%;
+  }
+  .contact__img h1{
+    font-size:1rem;
+  width:100%;
+  whitespace:none;
   }
 }
 
